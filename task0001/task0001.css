@@ -24,9 +24,9 @@ p{
 	font: italic bold 20px cursive,sans-serif;
 }
 img{
-	border-color: red;
-	border: 2px;
+	border: 2px red solid;
 }
+
 
 @font-face{
 	font-family: 'myFirstFont';
@@ -60,13 +60,13 @@ img{
 }
 
 .div-c{
-	background-color: red;
+	background-color: yellow;
 	left: 0;
 	position: absolute;
 	width: 200px;
 }
 .div-d{
-	background-color: blue;
+	background-color: red;
 	position: absolute;
 	left: 200px;
 	right: 0;
@@ -94,12 +94,12 @@ img{
 }
 .div-4{
 	background-color: red;
-float: left;
+	float: left;
 	width: 200px;
 }
 .div-5{
 	background-color: blue;
-float: right;
+	float: right;
 	width: 200px;
 
 }
@@ -111,7 +111,7 @@ float: right;
 }
 .container{
 	background-color: pink;
-	width: 500px;
+	/*width: 500px;*/
 	display: flex;
 	flex-wrap:wrap;
 }
@@ -119,8 +119,53 @@ float: right;
 	background-color: blue;
 	
 	margin: 10px;
-	width: 200px;
+	width: 400px;
 	height: 100px;
-
-
 }
+	.round{
+		width: 200px;
+		height: 200px;
+		/*left: 100px;
+		top: 100px;*/
+		position: relative;
+	}
+	.round_body{
+		height: 190px;
+		background: #ccc;
+		border-left: 1px red solid;
+		border-right: 1px red solid;
+	}
+	.round_corner{
+		background: none;
+		overflow: none;
+	}
+	.round_body_contain{
+		padding: 10px;
+	}
+	.l1,.l2,.l3,.l4{
+		height: 1px;
+		width: auto;
+		overflow: none;
+		background: #ccc;
+		clear: both;
+		border-left: 1px red solid;
+		border-right: 1px red solid;
+	}
+	.l1{
+		margin: 0 5px;
+		background: red;
+		border:none;
+	}
+
+	.l2 {margin:0 3px; 
+		border-left:2px red solid; 
+		border-right:2px red solid;
+	} 
+
+	.l3 {
+		margin:0 2px;
+	} 
+
+	.l4 {
+		margin:0 1px;
+	} 
