@@ -1,3 +1,4 @@
+
 header{
 	background-color: #824292;
 	width: 100%;
@@ -6,13 +7,14 @@ header{
 }
 .parent{
 	position: relative;
-	width: 960px;
+	width: 980px;
 	margin: 0 auto;
 }
 .logo{
 	color: #fff;
 	position: relative;
-	top: 50px;
+	top: 45px;
+	font-size: 25px;
 }
 .header_menu ul{
 	text-align: right;
@@ -45,10 +47,41 @@ header{
 	width: 100%;
 }
 .bg_text{
-	background-color: #fff;
+	width: 312px;
+	height: 97px;
+	overflow: auto;
+	color: #fff;
+	font-size: 12px;
+	line-height: 150%;
 	position: absolute;
 	right: 183.5px;
 	bottom: 0;
-	padding: 10px 10px 30px;
 	z-index: 2;
+	padding: 10px 10px 30px;
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0)); 
+}
+.bg_text span{
+	font-size: 14px;
+	position: relative;
+	left: 284px;
+}
+
+article{
+	background-color: rgb(223, 209, 233);
+}
+.container{
+	display: flex;
+	width: 980px;
+	margin: 10px auto 0;
+	justify-content:space-between;
+}
+.item{
+	background-color: #fff;
+	width: 320px;
+	height: 500px;
+}
+.item img{
+	width: 300px;
+	height: 180px;
+	padding: 10px;
 }
