@@ -1,0 +1,54 @@
+header{
+	background-color: #824292;
+	width: 100%;
+	height: 80px;
+	position: relative;
+}
+.parent{
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+.logo{
+	color: #fff;
+	position: relative;
+	top: 50px;
+}
+.header_menu ul{
+	text-align: right;
+	display: inline-block;
+	position: absolute;
+	top: 35px;
+	right: 0px;
+}
+.header_menu ul li{
+	color: white;
+	font: 14px "宋体",serif;
+	display: inline-block;
+	margin-left: 28px;
+}
+.header_menu ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.github_icon img{
+	position: absolute;
+	top:46px;
+	right: 10px;
+	width: 30px;
+}
+.banner-bg{
+	width: 100%;
+	position: relative;
+}
+.banner-bg img{
+	width: 100%;
+}
+.bg_text{
+	background-color: #fff;
+	position: absolute;
+	right: 183.5px;
+	bottom: 0;
+	padding: 10px 10px 30px;
+	z-index: 2;
+}
